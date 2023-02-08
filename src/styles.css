@@ -1,0 +1,60 @@
+html {
+  background-color: #333;
+  color: rgb(226, 226, 226);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+table {
+  width: 100%;
+  padding: "10px 100px";
+  /* background-color: blue; */
+}
+
+.jobSelect {
+  margin-right: 24px;
+}
+
+.jobCol {
+  /* width: 100px; */
+  width: min-content;
+}
+.tierCol {
+  /* color: red; */
+  width: 40px;
+}
+.headerRow {
+  height: 32px;
+
+  background-color: gray;
+}
+.skillRow {
+  height: 32px;
+}
+.headerRow td {
+  border-radius: 3px;
+}
+
+.tierHeader {
+  background-color: crimson;
+}
+
+.skillName {
+  font-weight: 600;
+}
+.tier {
+  font-weight: 600;
+}
+.tier-1 {
+  color: #09bc8a;
+}
+.tier-2 {
+  color: #3993dd;
+}
+.tier-3 {
+  color: #a32bb6;
+}
+.tier-4 {
+  color: #ffba08;
+}
